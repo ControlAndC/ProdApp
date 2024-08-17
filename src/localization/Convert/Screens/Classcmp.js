@@ -12,6 +12,7 @@ class Classcmp extends Component {
 
   render() {
     return <TouchableOpacity>
+        
         <Text>Hello</Text>
     </TouchableOpacity>;
   }
