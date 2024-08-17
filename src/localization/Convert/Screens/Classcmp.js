@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TouchableOpacity, View } from 'react-native';
+import { TouchableOpacity, View, Text } from 'react-native';
 
 class Classcmp extends Component {
   constructor(props) {
@@ -11,7 +11,14 @@ class Classcmp extends Component {
   }
 
   render() {
-    return <View></View>;
+    return <TouchableOpacity>
+
+
+
+
+        
+        <Text>Hello</Text>
+    </TouchableOpacity>;
   }
 }
 
