@@ -6,7 +6,7 @@ class Classcmp extends Component {
     super(props);
     this.state = {
       name_: 'santosh        xyz ',
-      data: [1,2,3,4] ,
+      data: [1,2,3,4111,22,332,15] ,
     };
   }
 
