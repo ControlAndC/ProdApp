@@ -6,19 +6,18 @@ class Classcmp extends Component {
     super(props);
     this.state = {
       name_: 'santosh        xyz ',
-      data: [1,2,3,4,5,6,7,8] ,
+      data: [1, 2, 3, 4, 5, 6, 7, 8],
     };
   }
 
   render() {
-    return <TouchableOpacity>
+    return (
+      <TouchableOpacity>
+        <Text>Hello2</Text>
 
-
-
-
-        
         <Text>Hello</Text>
-    </TouchableOpacity>;
+      </TouchableOpacity>
+    );
   }
 }
 
