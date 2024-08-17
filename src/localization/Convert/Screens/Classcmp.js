@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TouchableOpacity, View, Text } from 'react-native';
+import { TouchableOpacity, View, Text , Animated} from 'react-native';
 
 class Classcmp extends Component {
   constructor(props) {
