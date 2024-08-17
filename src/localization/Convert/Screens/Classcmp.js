@@ -16,6 +16,8 @@ class Classcmp extends Component {
         <Text>Hello2</Text>
 
         <Text>Hello</Text>
+        <Text>Hello</Text>
+
       </TouchableOpacity>
     );
   }
