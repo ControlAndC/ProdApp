@@ -1,0 +1,27 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "vsicons.presets.foldersAllDefaultIcon": true,
+  "workbench.iconTheme": "vscode-icons",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 1,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": "explicit"
+  // },
+  "eslint.enable": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+
+  // "workbench.colorCustomizations": {
+
+  //     "editorBracketHighlight.foreground1":"#FF0000",
+  //     "editorBracketHighlight.foreground2":"#002fff",
+  //     "editorBracketHighlight.foreground3":"#6a0bd6",
+  //     "editorBracketHighlight.foreground4":"#ffe600",
+  //     "editorBracketHighlight.foreground5":"#078043",
+
+  // }
+}
