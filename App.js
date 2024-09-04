@@ -1,6 +1,4 @@
-import React, {
-  Component, useEffect, useContext, Suspense,
-} from 'react';
+import React, { Component, useEffect, useContext, Suspense } from 'react';
 import { View, Text } from 'react-native';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { Provider } from 'react-redux';
@@ -25,6 +23,16 @@ function App(props) {
     <Provider store={PlanetStore}>
       <ContextWrapper>
         <GaurContextState>
+
+
+
+
+
+
+
+
+
+
           <ParkContextData>
             <FolderWrapper>
               <AppState>
@@ -39,7 +47,6 @@ function App(props) {
         </GaurContextState>
       </ContextWrapper>
     </Provider>
-
   );
 }
 

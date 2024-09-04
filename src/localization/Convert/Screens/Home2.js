@@ -14,7 +14,9 @@ class Home2 extends Component {
     this.letsStart = this.startCounter.bind(this);
   }
 
+
   startCounter() {
+    console.log('test')
     const interval = setInterval(() => {
       if (this.state.counter == 1) clearInterval(this.state.intervalId);
       this.setState({
